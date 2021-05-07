@@ -1,0 +1,38 @@
+#fks12 {
+  color: rgba(255,171,9,0.04);
+  background: url("../../assets/img/fondos/footerActa.png");
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+}
+
+#fks123 {
+  color: rgba(255,171,9,0.04);
+  background: url("../../assets/img/fondos/footerActa.png");
+  background-size: 100% 100%;
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  #fks12 {
+    display: none;
+  }
+}
+
+@media (min-width: 1201px) {
+  #fks123 {
+    display: none;
+  }
+}
+
+@media (min-width: 779px) {
+  #dazq1 {
+    display: none;
+  }
+}
+
+@media (max-width: 779px) {
+  #dawdsoqi {
+    display: none;
+  }
+}
+
