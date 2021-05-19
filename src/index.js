@@ -15,10 +15,10 @@ app.listen(portser, () => {
 })
 
 app.get('/', (req, res) =>{
-res.render('index.html');
+res.render('index.html'),{title: "Add New Category" };
 })
 app.get('/inicio', (req, res) =>{
-res.render('index.html');
+res.render('index.html'),{title: "Add New Category" };
 })
 app.get('/index', (req, res) =>{
     res.render('indexeng.html');

@@ -36,3 +36,27 @@
   }
 }
 
+@media (max-width: 768px) {
+  #fks-1 {
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  #fks-1 {
+    height: 948px;
+  }
+}
+
+@media (min-width: 304px) and (max-width: 550px) {
+  #fks-1 {
+    transform: translateY(62px);
+  }
+}
+
+@media (min-width: 576px) {
+  #fks-1 {
+    transform: translateY(84px);
+  }
+}
+
